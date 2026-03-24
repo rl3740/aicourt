@@ -37,7 +37,7 @@ if [ -d "$INSTALL_DIR" ]; then
 fi
 
 echo -e "  ${CYAN}正在克隆仓库...${NC}"
-git clone --depth 1 https://github.com/wanikua/danghuangshang.git "$INSTALL_DIR"
+git clone --depth 1 https://github.com/rl3740/aicourt.git "$INSTALL_DIR"
 echo -e "  ${GREEN}✓${NC} 仓库已克隆到：$INSTALL_DIR"
 
 cd "$INSTALL_DIR"
