@@ -237,9 +237,9 @@ if [ "$EXISTING_KEYS" != "{}" ]; then
   fi
 fi
 
-# 标记制度
-jq --arg regime "$TARGET_REGIME" '._regime = $regime' \
-  "$CONFIG_FILE" > "${CONFIG_FILE}.tmp" && mv "${CONFIG_FILE}.tmp" "$CONFIG_FILE"
+# # 标记制度
+# jq --arg regime "$TARGET_REGIME" '._regime = $regime' \
+#   "$CONFIG_FILE" > "${CONFIG_FILE}.tmp" && mv "${CONFIG_FILE}.tmp" "$CONFIG_FILE"
 
 echo ""
 
