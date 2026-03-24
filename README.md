@@ -42,14 +42,9 @@
 
 **方式一：本地安装（推荐）**
 ```bash
-git clone https://github.com/wanikua/danghuangshang.git
-cd danghuangshang
+git clone https://github.com/rl3740/aicourt.git
+cd aicourt
 bash scripts/full-install.sh
-```
-
-**方式二：远程一键安装**
-```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/wanikua/danghuangshang/main/scripts/full-install.sh)
 ```
 
 **一行命令，5 分钟，你就是皇上。** [→ 快速开始](#快速开始)
